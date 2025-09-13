@@ -17,9 +17,7 @@ rm -f moroz-team-darkula-theme-*.vsix
 
 # Создаем VSIX с правильной структурой
 echo "📦 Creating VSIX package..."
-cd extension
-zip -r ../moroz-team-darkula-theme-$VERSION.vsix . -x "*.DS_Store" "*/.*" "*.git*"
-cd ..
+zip -r moroz-team-darkula-theme-$VERSION.vsix extension/ -x "*.DS_Store" "*/.*" "*.git*"
 
 echo "✅ VSIX package created: moroz-team-darkula-theme-$VERSION.vsix"
 echo ""
