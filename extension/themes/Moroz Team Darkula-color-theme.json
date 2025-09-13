@@ -78,7 +78,15 @@
     "notebook.cellHoverBackground": "#313335",
     "notebook.focusedEditorBorder": "#505050",
     "editorOverviewRuler.border": "#46464621",
-    "dart.closingLabels": "#5a5a5a"
+    "dart.closingLabels": "#5a5a5a",
+    "editorBracketMatch.background": "#2b2b2b",
+    "editorBracketMatch.border": "#6897BB",
+    "editorBracketHighlight.foreground1": "#6897BB",
+    "editorBracketHighlight.foreground2": "#6897BB",
+    "editorBracketHighlight.foreground3": "#6897BB",
+    "editorBracketHighlight.foreground4": "#6897BB",
+    "editorBracketHighlight.foreground5": "#6897BB",
+    "editorBracketHighlight.foreground6": "#6897BB"
   },
   "tokenColors": [
     {
@@ -148,7 +156,7 @@
       "name": "punctuation.separator.parameters.python",
       "scope": "punctuation.separator.element.python",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#6897BB"
       }
     },
     {
@@ -156,6 +164,48 @@
       "scope": "variable.parameter.function.language.special.self.python",
       "settings": {
         "foreground": "#94558d"
+      }
+    },
+    {
+      "name": "variable.parameter.function.language.special.cls.python",
+      "scope": "variable.parameter.function.language.special.cls.python",
+      "settings": {
+        "foreground": "#94558d"
+      }
+    },
+    {
+      "name": "variable.function.cls.python",
+      "scope": "variable.function.python",
+      "settings": {
+        "foreground": "#94558d"
+      }
+    },
+    {
+      "name": "Python decorators",
+      "scope": "punctuation.definition.decorator.python, entity.name.function.decorator.python",
+      "settings": {
+        "foreground": "#6897BB"
+      }
+    },
+    {
+      "name": "Python decorator method names",
+      "scope": "entity.name.function.decorator.python",
+      "settings": {
+        "foreground": "#6897BB"
+      }
+    },
+    {
+      "name": "Python decorator support",
+      "scope": "support.token.decorator.python,meta.function.decorator.identifier.python",
+      "settings": {
+        "foreground": "#6897BB"
+      }
+    },
+    {
+      "name": "Dart decorators",
+      "scope": "punctuation.definition.annotation.dart, entity.name.type.annotation.dart",
+      "settings": {
+        "foreground": "#6897BB"
       }
     },
     {
@@ -281,7 +331,7 @@
       "name": "js/ts punctuation separator key-value",
       "scope": "punctuation.separator.key-value",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#6897BB"
       }
     },
     {
@@ -347,7 +397,7 @@
       "name": "js/ts punctuation",
       "scope": "punctuation.terminator.statement.js,punctuation.separator.parameter.js,punctuation.separator.comma.js",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#6897BB"
       }
     },
     {
@@ -476,7 +526,7 @@
       "name": "css comma/punctuation",
       "scope": "punctuation.separator.list.comma.css,punctuation.terminator.rule.css",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#6897BB"
       }
     },
     {
@@ -622,7 +672,7 @@
       "name": "operator",
       "scope": "keyword.operator.delete",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#696dbe"
       }
     },
     {
@@ -650,21 +700,56 @@
       "name": "C operator assignment",
       "scope": "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c,keyword.operator.assignment.cpp,keyword.operator.comparison.cpp,keyword.operator.cpp,keyword.operator.increment.cpp,keyword.operator.decrement.cpp,keyword.operator.bitwise.shift.cpp",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#696dbe"
       }
     },
     {
       "name": "Punctuation",
       "scope": "punctuation.separator.delimiter",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#696dbe"
       }
     },
     {
       "name": "Other punctuation .c",
       "scope": "punctuation.separator.c,punctuation.separator.cpp",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#6897BB"
+      }
+    },
+    {
+      "name": "Dart ternary operator",
+      "scope": "keyword.operator.ternary.dart, source.dart",
+      "settings": {
+        "foreground": "#A9B7C6"
+      }
+    },
+    {
+      "name": "Dart boolean constants",
+      "scope": "constant.language.dart",
+      "settings": {
+        "foreground": "#696dbe"
+      }
+    },
+    {
+      "name": "Python boolean constants",
+      "scope": "constant.language.python",
+      "settings": {
+        "foreground": "#696dbe"
+      }
+    },
+    {
+      "name": "Variable language",
+      "scope": "variable.language, variable.language.dart",
+      "settings": {
+        "foreground": "#696dbe"
+      }
+    },
+    {
+      "name": "Dart punctuation",
+      "scope": "punctuation.terminator.dart, punctuation.comma.dart",
+      "settings": {
+        "foreground": "#6897BB"
       }
     },
     {
@@ -678,7 +763,7 @@
       "name": "keyword.operator.sizeof.c",
       "scope": "keyword.operator.sizeof.c,keyword.operator.sizeof.cpp",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#696dbe"
       }
     },
     {
@@ -696,17 +781,10 @@
       }
     },
     {
-      "name": "python type",
-      "scope": "support.type.python",
-      "settings": {
-        "foreground": "#8888C6"
-      }
-    },
-    {
       "name": "python logical",
       "scope": "keyword.operator.logical.python",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#696dbe"
       }
     },
     {
@@ -720,7 +798,7 @@
       "name": "python block",
       "scope": "punctuation.definition.arguments.begin.python,punctuation.definition.arguments.end.python,punctuation.separator.arguments.python,punctuation.definition.list.begin.python,punctuation.definition.list.end.python",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#6897BB"
       }
     },
     {
@@ -975,28 +1053,28 @@
       "name": "Control Elements",
       "scope": "control.elements, keyword.operator.less",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#A9B7C6"
       }
     },
     {
       "name": "Methods",
       "scope": "keyword.other.special-method",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#696dbe"
       }
     },
     {
       "name": "Storage",
       "scope": "storage",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#696dbe"
       }
     },
     {
       "name": "Storage JS TS",
       "scope": "token.storage",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#696dbe"
       }
     },
     {
@@ -1010,7 +1088,7 @@
       "name": "Source Js Keyword Operator Delete,source Js Keyword Operator In,source Js Keyword Operator Of,source Js Keyword Operator Instanceof,source Js Keyword Operator New,source Js Keyword Operator Typeof,source Js Keyword Operator Void",
       "scope": "keyword.operator.expression.delete,keyword.operator.expression.in,keyword.operator.expression.of,keyword.operator.expression.instanceof,keyword.operator.new,keyword.operator.expression.typeof,keyword.operator.expression.void",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#696dbe"
       }
     },
     {
@@ -1113,7 +1191,7 @@
       "name": "Constants",
       "scope": "punctuation.definition.constant",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#6897BB"
       }
     },
     {
@@ -1183,7 +1261,7 @@
       "name": "markup Italic",
       "scope": "markup.italic, punctuation.definition.italic,todo.emphasis",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#6897BB"
       }
     },
     {
@@ -1211,7 +1289,7 @@
       "name": "punctuation.definition.list.begin.markdown",
       "scope": "punctuation.definition.list.begin.markdown",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#6897BB"
       }
     },
     {
@@ -1225,7 +1303,7 @@
       "name": "[VSCODE-CUSTOM] Markdown Punctuation Definition Bold",
       "scope": "punctuation.definition.bold.markdown",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#6897BB"
       }
     },
     {
@@ -1338,7 +1416,7 @@
       "name": "Embedded",
       "scope": "punctuation.section.embedded.begin,punctuation.section.embedded.end",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#6897BB"
       }
     },
     {
@@ -1500,7 +1578,7 @@
       "name": "php function-resets",
       "scope": "punctuation.definition.parameters.begin.bracket.round.php,punctuation.definition.parameters.end.bracket.round.php,punctuation.separator.delimiter.php,punctuation.section.scope.begin.php,punctuation.section.scope.end.php,punctuation.terminator.expression.php,punctuation.definition.arguments.begin.bracket.round.php,punctuation.definition.arguments.end.bracket.round.php,punctuation.definition.storage-type.begin.bracket.round.php,punctuation.definition.storage-type.end.bracket.round.php,punctuation.definition.array.begin.bracket.round.php,punctuation.definition.array.end.bracket.round.php,punctuation.definition.begin.bracket.round.php,punctuation.definition.end.bracket.round.php,punctuation.definition.begin.bracket.curly.php,punctuation.definition.end.bracket.curly.php,punctuation.definition.section.switch-block.end.bracket.curly.php,punctuation.definition.section.switch-block.start.bracket.curly.php,punctuation.definition.section.switch-block.begin.bracket.curly.php,punctuation.definition.section.switch-block.end.bracket.curly.php",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#6897BB"
       }
     },
     {
@@ -1619,7 +1697,7 @@
       "name": "ts primitive/builtin types",
       "scope": "support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#696dbe"
       }
     },
     {
@@ -1832,7 +1910,7 @@
         "punctuation.terminator.go"
       ],
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#6897BB"
       }
     },
     {
@@ -2370,7 +2448,7 @@
         "punctuation.definition.interpolation.rust",
       ],
       "settings": {
-        "foreground": "#CC7832",
+        "foreground": "#6897BB",
       }
     },
     {
@@ -2477,6 +2555,62 @@
       }
     },
     {
+      "name": "Python decorators FINAL",
+      "scope": "support.type.python meta.function.decorator.python",
+      "settings": {
+        "foreground": "#66A6FF"
+      }
+    },
+    {
+      "name": "Python decorators FINAL 2",
+      "scope": "entity.name.function.decorator.python",
+      "settings": {
+        "foreground": "#66A6FF"
+      }
+    },
+    {
+      "name": "Python builtin functions",
+      "scope": "support.function.builtin.python",
+      "settings": {
+        "foreground": "#8888C6"
+      }
+    },
+    {
+      "name": "Python builtin types",
+      "scope": "support.type.builtin.python",
+      "settings": {
+        "foreground": "#8888C6"
+      }
+    },
+    {
+      "name": "Python decorators in context",
+      "scope": "support.type.python meta.function.decorator.python",
+      "settings": {
+        "foreground": "#66A6FF"
+      }
+    },
+    {
+      "name": "Python function calls",
+      "scope": "support.type.python meta.function-call.python",
+      "settings": {
+        "foreground": "#8888C6"
+      }
+    },
+    {
+      "name": "Python decorators Cursor style",
+      "scope": "source.python entity.name.function.decorator, source.python meta.function.decorator support.type",
+      "settings": {
+        "foreground": "#66A6FF"
+      }
+    },
+    {
+      "name": "Python support types Cursor style",
+      "scope": "source.python support.type",
+      "settings": {
+        "foreground": "#8888C6"
+      }
+    },
+    {
       "name": "Python cls in function calls",
       "scope": "variable.language.special.cls.python",
       "settings": {
@@ -2495,6 +2629,139 @@
       "scope": "entity.name.function.python",
       "settings": {
         "foreground": "#E5C07B"
+      }
+    },
+    {
+      "name": "Dart Function Calls",
+      "scope": "meta.function-call.dart, support.function.dart",
+      "settings": {
+        "foreground": "#FFC66D"
+      }
+    },
+    {
+      "name": "Dart Class Constructors",
+      "scope": "entity.name.function.constructor.dart, meta.class.constructor.dart",
+      "settings": {
+        "foreground": "#A9B7C6"
+      }
+    },
+    {
+      "name": "Dart Private Constructors",
+      "scope": "entity.name.function.constructor.private.dart",
+      "settings": {
+        "foreground": "#A9B7C6"
+      }
+    },
+    {
+      "name": "Dart Class Instantiation",
+      "scope": "meta.class.instantiation.dart, entity.name.type.class.instantiation.dart",
+      "settings": {
+        "foreground": "#A9B7C6"
+      }
+    },
+    {
+      "name": "Dart Named Constructors",
+      "scope": "entity.name.function.constructor.named.dart",
+      "settings": {
+        "foreground": "#A9B7C6"
+      }
+    },
+    {
+      "name": "Dart Factory Constructors",
+      "scope": "entity.name.function.constructor.factory.dart",
+      "settings": {
+        "foreground": "#A9B7C6"
+      }
+    },
+    {
+      "name": "Dart Method Calls",
+      "scope": "meta.method-call.dart, support.method.dart",
+      "settings": {
+        "foreground": "#FFC66D"
+      }
+    },
+    {
+      "name": "Dart Static Method Calls",
+      "scope": "meta.static-method-call.dart",
+      "settings": {
+        "foreground": "#FFC66D"
+      }
+    },
+    {
+      "name": "Dart Generic Type Parameters",
+      "scope": "meta.generic.dart, entity.name.type.generic.dart",
+      "settings": {
+        "foreground": "#A9B7C6"
+      }
+    },
+    {
+      "name": "Dart Type Parameters",
+      "scope": "entity.name.type.parameter.dart",
+      "settings": {
+        "foreground": "#A9B7C6"
+      }
+    },
+    {
+      "name": "Dart Extension Methods",
+      "scope": "entity.name.function.extension.dart",
+      "settings": {
+        "foreground": "#FFC66D"
+      }
+    },
+    {
+      "name": "Dart Mixin Applications",
+      "scope": "entity.name.type.mixin.dart",
+      "settings": {
+        "foreground": "#A9B7C6"
+      }
+    },
+    {
+      "name": "Dart Enum Values",
+      "scope": "entity.name.enum.dart, constant.other.enum.dart",
+      "settings": {
+        "foreground": "#A9B7C6"
+      }
+    },
+    {
+      "name": "Dart Async/Await Keywords",
+      "scope": "keyword.control.async.dart, keyword.control.await.dart",
+      "settings": {
+        "foreground": "#696dbe"
+      }
+    },
+    {
+      "name": "Dart Null Safety Operators",
+      "scope": "keyword.operator.null-safety.dart",
+      "settings": {
+        "foreground": "#CC7832"
+      }
+    },
+    {
+      "name": "Dart Cascade Operators",
+      "scope": "keyword.operator.cascade.dart",
+      "settings": {
+        "foreground": "#CC7832"
+      }
+    },
+    {
+      "name": "Dart Spread Operators",
+      "scope": "keyword.operator.spread.dart",
+      "settings": {
+        "foreground": "#CC7832"
+      }
+    },
+    {
+      "name": "Dart Collection Literals",
+      "scope": "meta.collection.dart",
+      "settings": {
+        "foreground": "#A9B7C6"
+      }
+    },
+    {
+      "name": "Dart String Interpolation",
+      "scope": "meta.string.interpolation.dart",
+      "settings": {
+        "foreground": "#CC7832"
       }
     }
   ],
