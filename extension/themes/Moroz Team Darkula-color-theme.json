@@ -968,7 +968,7 @@
       "name": "Keyword Control",
       "scope": "keyword.control",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#696dbe"
       }
     },
     {
@@ -2474,6 +2474,27 @@
       ],
       "settings": {
         "foreground": "#a5c261"
+      }
+    },
+    {
+      "name": "Python cls in function calls",
+      "scope": "variable.language.special.cls.python",
+      "settings": {
+        "foreground": "#94558d"
+      }
+    },
+    {
+      "name": "Python inherited classes",
+      "scope": "entity.other.inherited-class.python",
+      "settings": {
+        "foreground": "#A9B7C6"
+      }
+    },
+    {
+      "name": "Python function names",
+      "scope": "entity.name.function.python",
+      "settings": {
+        "foreground": "#E5C07B"
       }
     }
   ],
