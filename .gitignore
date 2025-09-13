@@ -1,3 +1,14 @@
-node_modules
+# Dependencies
+node_modules/
+
+# Build artifacts
 *.vsix
+extension/
+
+# IDE settings
 .vscode/settings.json
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log

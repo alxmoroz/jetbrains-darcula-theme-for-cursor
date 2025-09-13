@@ -29,15 +29,29 @@ A custom dark theme for Visual Studio Code/Cursor based on JetBrains Darcula wit
 
 ## Installation
 
-### For Cursor IDE
-1. Clone this repository
-2. Copy the extension to Cursor's extensions folder
-3. Restart Cursor
-4. Select "Moroz Team Darkula" from the theme picker
+### Quick Install (Recommended)
+1. Download the latest `.vsix` file from [Releases](https://github.com/alxmoroz/jetbrains-darcula-theme-for-cursor/releases)
+2. Install via Cursor CLI:
+   ```bash
+   cursor --install-extension moroz-team-darkula-theme-1.1.0.vsix
+   ```
+3. Or install via Cursor UI:
+   - Open Extensions (`Ctrl+Shift+X`)
+   - Click `...` menu
+   - Select `Install from VSIX...`
+   - Choose the `.vsix` file
 
-### For VS Code
-1. Install from VSIX file (when available)
-2. Or clone and build locally
+### Build from Source
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/alxmoroz/jetbrains-darcula-theme-for-cursor.git
+   cd jetbrains-darcula-theme-for-cursor
+   ```
+2. Build the extension:
+   ```bash
+   ./build.sh
+   ```
+3. Install the generated `.vsix` file as described above
 
 ## Usage
 
