@@ -1,9 +1,9 @@
 {
-    "name": "jetbrains-darcula-theme",
-    "displayName": "JetBrains Darcula Theme",
-    "description": "A theme extension for Visual Studio Code based on Darcula theme from Jetbrains IDEs with some improvements",
-    "publisher": "Anan",
-    "version": "1.3.5",
+    "name": "moroz-team-darkula-theme",
+    "displayName": "Moroz Team Darkula",
+    "description": "A custom dark theme based on JetBrains Darcula with enhanced syntax highlighting for Moroz Team",
+    "publisher": "moroz-team",
+    "version": "1.0.0",
     "license": "MIT",
     "icon": "theme-icon.png",
     "galleryBanner": {
@@ -17,54 +17,31 @@
         "theme",
         "dark",
         "dark theme",
-        "pycharm",
-        "pycharm theme",
-        "webstorm",
-        "webstorm theme",
+        "moroz-team",
         "darcula",
         "darcula theme",
         "jetbrains",
-        "jetbrains theme"
+        "jetbrains theme",
+        "custom",
+        "enhanced"
     ],
-    "homepage": "https://github.com/Mohamed3nan/jetbrains-darcula-theme",
+    "homepage": "https://github.com/alxmoroz/jetbrains-darcula-theme-for-cursor",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Mohamed3nan/JetBrains-Darcula-Theme"
+        "url": "https://github.com/alxmoroz/jetbrains-darcula-theme-for-cursor"
     },
     "bugs": {
-        "url": "https://github.com/Mohamed3nan/JetBrains-Darcula-Theme/issues"
+        "url": "https://github.com/alxmoroz/jetbrains-darcula-theme-for-cursor/issues"
     },
-    "badges": [
-        {
-            "url": "https://vsmarketplacebadges.dev/version/Anan.jetbrains-darcula-theme.png",
-            "href": "https://marketplace.visualstudio.com/items/Anan.jetbrains-darcula-theme",
-            "description": "Version"
-        },
-        {
-            "url": "https://vsmarketplacebadges.dev/installs-short/Anan.jetbrains-darcula-theme.png",
-            "href": "https://marketplace.visualstudio.com/items/Anan.jetbrains-darcula-theme",
-            "description": "Installs"
-        },
-        {
-            "url": "https://vsmarketplacebadges.dev/downloads-short/Anan.jetbrains-darcula-theme.png",
-            "href": "https://marketplace.visualstudio.com/items/Anan.jetbrains-darcula-theme",
-            "description": "Downloads"
-        },
-        {
-            "url": "https://vsmarketplacebadges.dev/rating-star/Anan.jetbrains-darcula-theme.png",
-            "href": "https://marketplace.visualstudio.com/items/Anan.jetbrains-darcula-theme",
-            "description": "Rating"
-        }
-    ],
     "engines": {
         "vscode": "^1.55.0"
     },
     "contributes": {
         "themes": [
             {
-                "label": "JetBrains Darcula Theme",
+                "label": "Moroz Team Darkula",
                 "uiTheme": "vs-dark",
-                "path": "./themes/JetBrains Darcula Theme-color-theme.json"
+                "path": "./themes/Moroz Team Darkula-color-theme.json"
             }
         ]
     }

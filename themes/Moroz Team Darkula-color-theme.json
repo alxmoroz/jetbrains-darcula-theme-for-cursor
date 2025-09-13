@@ -1,5 +1,5 @@
 {
-  "name": "JetBrains Darcula Theme",
+  "name": "Moroz Team Darkula",
   "type": "dark",
   "colors": {
     "activityBar.background": "#3c3f41",
@@ -119,7 +119,7 @@
       "name": "variable.parameter.function.language.special.self.python",
       "scope": "variable.parameter.function.language.special.self.python",
       "settings": {
-        "foreground": "#94558D"
+        "foreground": "#94558d"
       }
     },
     {
@@ -275,7 +275,7 @@
       "settings": {
         "foreground": "#9876AA"
       }
-    }, 
+    },
     {
       "name": "js",
       "scope": "meta.definition.variable.js",
@@ -712,7 +712,7 @@
       "name": "Keywords",
       "scope": "keyword",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#696dbe"
       }
     },
     {
@@ -787,7 +787,7 @@
         "variable.function"
       ],
       "settings": {
-        "foreground": "#FFC66D"
+        "foreground": "#d9af6c"
       }
     },
     {
@@ -801,7 +801,7 @@
       "name": "Classes",
       "scope": "support.class",
       "settings": {
-        "foreground": "#9876AA"
+        "foreground": "#a9b7c6"
       }
     },
     {
@@ -958,7 +958,7 @@
       "name": "Strings",
       "scope": "string",
       "settings": {
-        "foreground": "#6A8759"
+        "foreground": "#7b8b78"
       }
     },
     {
@@ -972,7 +972,7 @@
       "name": "Integers",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#6897BB"
+        "foreground": "#267dff"
       }
     },
     {
@@ -1436,7 +1436,7 @@
       "name": "python function decorator @",
       "scope": "meta.function.decorator.python",
       "settings": {
-        "foreground": "#FFC66D"
+        "foreground": "#66a6ff"
       }
     },
     {
@@ -2074,7 +2074,7 @@
       "name": "Comments",
       "scope": "comment, punctuation.definition.comment",
       "settings": {
-        "foreground": "#808080"
+        "foreground": "#7a7a7a"
       }
     },
     {
@@ -2186,7 +2186,7 @@
     },
     {
       "name": "log.error",
-      "scope":[
+      "scope": [
         "log.error"
       ],
       "settings": {
@@ -2337,6 +2337,36 @@
         "foreground": "#abb2bf",
       }
     },
+    {
+      "name": "Python Special Names",
+      "scope": [
+        "support.function.builtin.python",
+        "support.type.builtin.python"
+      ],
+      "settings": {
+        "foreground": "#b200b2"
+      }
+    },
+    {
+      "name": "Python Keyword Arguments",
+      "scope": [
+        "variable.parameter.function.python"
+      ],
+      "settings": {
+        "foreground": "#aa4926"
+      }
+    },
+    {
+      "name": "Python Binary Strings",
+      "scope": [
+        "string.quoted.binary.python",
+        "string.quoted.binary.single.python",
+        "string.quoted.binary.double.python"
+      ],
+      "settings": {
+        "foreground": "#a5c261"
+      }
+    }
   ],
   "semanticHighlighting": false
 }

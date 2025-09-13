@@ -1,109 +1,60 @@
-# JetBrains Darcula Theme for Visual Studio Code
+# Moroz Team Darkula Theme
 
-[![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://vscode.dev/theme/Anan.jetbrains-darcula-theme)
-[![Installs](https://vsmarketplacebadges.dev/installs-short/Anan.jetbrains-darcula-theme.png)](https://vsmarketplacebadges.dev/installs-short/Anan.jetbrains-darcula-theme.png)
-[![Downloads](https://vsmarketplacebadges.dev/downloads-short/Anan.jetbrains-darcula-theme.png)](https://vsmarketplacebadges.dev/downloads-short/Anan.jetbrains-darcula-theme.png)
-[![Rating](https://vsmarketplacebadges.dev/rating-star/Anan.jetbrains-darcula-theme.png)](https://vsmarketplacebadges.dev/rating-star/Anan.jetbrains-darcula-theme.png)
-[![Marketplace](https://vsmarketplacebadges.dev/version/Anan.jetbrains-darcula-theme.png)](https://vsmarketplacebadges.dev/version/Anan.jetbrains-darcula-theme.png)
+A custom dark theme for Visual Studio Code/Cursor based on JetBrains Darcula with enhanced syntax highlighting for Moroz Team.
 
+## Features
 
-<a href='https://ko-fi.com/mohamed3nan' target='_blank' title='Thank you!'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi3.png?v=6' border='0' alt='Buy Me a Coffee' /></a>
+- 🎨 Enhanced color scheme based on Darcula A1.icls
+- 🔤 Optimized colors for better readability
+- 🐍 Special Python syntax highlighting
+- 🎯 Dart and Flutter optimized
+- 🌈 Modern color palette with vibrant accents
 
+## Color Scheme
 
-A theme extension for Visual Studio Code based on Darcula theme from Jetbrains IDEs with some improvements.
+### General Colors (All Languages)
+- **Keywords**: `#696dbe` (blue-purple)
+- **Strings**: `#7b8b78` (greenish-gray)
+- **Comments**: `#7a7a7a` (gray)
+- **Functions**: `#d9af6c` (golden)
+- **Classes**: `#a9b7c6` (light gray with blue tint)
+- **Numbers**: `#267dff` (blue)
 
-## SPONSORS
-**Chat.CX — Own the future of Chat and CX**  
-
-The future‑proof domain for the next generation of CX: Customer eXperience, Chat eXperience, and Chrome eXtensions. From AI assistants and conversational agents to messaging, engagement, and support.
-
-[Explore Chat.CX](https://chat.cx)
+### Python-Specific Colors
+- **Special Names** (`__init__`, `__add__`, etc.): `#b200b2` (purple)
+- **Self Parameter**: `#94558d` (dark purple)
+- **Keyword Arguments**: `#aa4926` (brown)
+- **Binary Strings**: `#a5c261` (green)
+- **Decorators** (including @): `#66a6ff` (blue)
 
 ## Installation
-Launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter.
 
-```ext install Anan.jetbrains-darcula-theme```
+### For Cursor IDE
+1. Clone this repository
+2. Copy the extension to Cursor's extensions folder
+3. Restart Cursor
+4. Select "Moroz Team Darkula" from the theme picker
 
-or:
-[Download from VisualStudio Marketplace](https://marketplace.visualstudio.com/items?itemName=Anan.jetbrains-darcula-theme)
+### For VS Code
+1. Install from VSIX file (when available)
+2. Or clone and build locally
 
-## JetBrains Mono Font Installation
-- Downloaded and install JetBrains Mono font https://www.jetbrains.com/lp/mono
-- Add this snippet in your "settings.json":
-  ```json
-    "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
-    "editor.fontSize": 13,
-    "editor.lineHeight": 22,
-    "editor.fontWeight": "300",
-    ```
+## Usage
 
-## Screenshots
-![ScreenShot](screenshots/ScreenShots.gif)
-[View All ScreenShots](screenshots)
+1. Open Command Palette (`Cmd+Shift+P` / `Ctrl+Shift+P`)
+2. Type "Preferences: Color Theme"
+3. Select "Moroz Team Darkula"
 
-## Tweaks & theming
-If you want to play around with new colors, use the setting
-`workbench.colorCustomizations` to customize the currently selected theme. For
-example, you can add this snippet in your "settings.json" file:
+## Development
 
-```json
-"workbench.colorCustomizations": {
-  "tab.activeBackground": "#282c34",
-  "activityBar.background": "#282c34",
-  "sideBar.background": "#282c34"
-}
-```
-
-or use the setting `editor.tokenColorCustomizations`
-
-```json
-"editor.tokenColorCustomizations": {
-  "[JetBrains Darcula Theme]": {
-    "textMateRules": [
-      {
-        "scope": ["source.python"],
-        "settings": {
-          "foreground": "#e06c75"
-        }
-      }
-    ]
-  }
-}
-```
-### Enablement of semantic highlighting
-By default [Semantic Highlighting](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#enablement-of-semantic-highlighting) value is **false** in this theme, you can add this snippet in your "settings.json" file to disable it:
-```json
-"editor.semanticHighlighting.enabled": true
-```
-
-Please check the official documentation,
-[Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference) and
-[Theme Color](https://code.visualstudio.com/docs/getstarted/themes), for more helpful information.
-
-[More info](https://code.visualstudio.com/updates/v1_15#_user-definable-syntax-highlighting-colors)
-
-
-## Syntax Support
-Python, Javascript, TypeScript, React, Vue, HTML, Markdown, JSON, CSS, SCSS, Dockerfile, Go, and more...
-
-
-## Contribution
-If you want to add more syntax support or have any idea to improve highlighting, feel free to make a pull request or open a new issue.
-
-
-## Inspiration
-[One Dark Pro](https://github.com/Binaryify/OneDark-Pro), [PyCharm Theme](https://github.com/nicohlr/vscode-pycharm-theme), [JetBrains](https://www.jetbrains.com), [PyCharm](https://www.jetbrains.com/pycharm/), [WebStorm](https://www.jetbrains.com/webstorm/)
-
-
-## Changelog
-[CHANGELOG](CHANGELOG.md)
-
+This theme is based on the original [JetBrains Darcula Theme](https://github.com/Mohamed3nan/JetBrains-Darcula-Theme) with customizations for Moroz Team.
 
 ## License
-This project is licensed under the MIT License - see the
-[MIT](LICENSE.txt) file for details.
 
+MIT License - feel free to use and modify!
 
----
+## Credits
 
-**Enjoy!**
+- Based on [JetBrains Darcula Theme](https://github.com/Mohamed3nan/JetBrains-Darcula-Theme) by Mohamed3nan
+- Colors adapted from Darcula A1.icls
+- Customized for Moroz Team development workflow
