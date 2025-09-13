@@ -1,0 +1,48 @@
+{
+    "name": "moroz-team-darkula-theme",
+    "displayName": "Moroz Team Darkula",
+    "description": "A custom dark theme based on JetBrains Darcula with enhanced syntax highlighting for Moroz Team",
+    "publisher": "moroz-team",
+    "version": "1.1.0",
+    "license": "MIT",
+    "icon": "theme-icon.png",
+    "galleryBanner": {
+        "color": "#3c3f41",
+        "theme": "dark"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "dark",
+        "dark theme",
+        "moroz-team",
+        "darcula",
+        "darcula theme",
+        "jetbrains",
+        "jetbrains theme",
+        "custom",
+        "enhanced"
+    ],
+    "homepage": "https://github.com/alxmoroz/jetbrains-darcula-theme-for-cursor",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/alxmoroz/jetbrains-darcula-theme-for-cursor"
+    },
+    "bugs": {
+        "url": "https://github.com/alxmoroz/jetbrains-darcula-theme-for-cursor/issues"
+    },
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Moroz Team Darkula",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Moroz Team Darkula-color-theme.json"
+            }
+        ]
+    }
+}
