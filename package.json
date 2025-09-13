@@ -3,7 +3,7 @@
     "displayName": "Moroz Team Darkula",
     "description": "A custom dark theme based on JetBrains Darcula with enhanced syntax highlighting for Moroz Team",
     "publisher": "moroz-team",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "license": "MIT",
     "icon": "theme-icon.png",
     "galleryBanner": {

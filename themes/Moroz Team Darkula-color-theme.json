@@ -81,6 +81,41 @@
   },
   "tokenColors": [
     {
+      "name": "Python Class Definition Priority",
+      "scope": "entity.name.function.python",
+      "settings": {
+        "foreground": "#a9b7c6"
+      }
+    },
+    {
+      "name": "Python All Entity Names",
+      "scope": "entity.name.python",
+      "settings": {
+        "foreground": "#a9b7c6"
+      }
+    },
+    {
+      "name": "Python All Meta Classes",
+      "scope": "meta.class.python",
+      "settings": {
+        "foreground": "#a9b7c6"
+      }
+    },
+    {
+      "name": "Python All Entity Types",
+      "scope": "entity.name.type.python",
+      "settings": {
+        "foreground": "#a9b7c6"
+      }
+    },
+    {
+      "name": "Python All Entity Classes",
+      "scope": "entity.name.class.python",
+      "settings": {
+        "foreground": "#a9b7c6"
+      }
+    },
+    {
       "name": "unison punctuation",
       "scope": "punctuation.definition.delayed.unison,punctuation.definition.list.begin.unison,punctuation.definition.list.end.unison,punctuation.definition.ability.begin.unison,punctuation.definition.ability.end.unison,punctuation.operator.assignment.as.unison,punctuation.separator.pipe.unison,punctuation.separator.delimiter.unison,punctuation.definition.hash.unison",
       "settings": {
@@ -289,6 +324,13 @@
       "settings": {
         "foreground": "#629755",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Dart Auto Comments",
+      "scope": "comment.block.documentation.dart",
+      "settings": {
+        "foreground": "#7a7a7a"
       }
     },
     {
@@ -521,7 +563,42 @@
     },
     {
       "name": "js console function",
-      "scope": "entity.name.function,support.function.console",
+      "scope": "support.function.console",
+      "settings": {
+        "foreground": "#FFC66D"
+      }
+    },
+    {
+      "name": "Dart Functions",
+      "scope": "entity.name.function.dart",
+      "settings": {
+        "foreground": "#FFC66D"
+      }
+    },
+    {
+      "name": "JavaScript Functions",
+      "scope": "entity.name.function.js",
+      "settings": {
+        "foreground": "#FFC66D"
+      }
+    },
+    {
+      "name": "Java Functions",
+      "scope": "entity.name.function.java",
+      "settings": {
+        "foreground": "#FFC66D"
+      }
+    },
+    {
+      "name": "C++ Functions",
+      "scope": "entity.name.function.cpp",
+      "settings": {
+        "foreground": "#FFC66D"
+      }
+    },
+    {
+      "name": "C# Functions",
+      "scope": "entity.name.function.cs",
       "settings": {
         "foreground": "#FFC66D"
       }
@@ -608,13 +685,6 @@
       "scope": "keyword.operator.sizeof.c,keyword.operator.sizeof.cpp",
       "settings": {
         "foreground": "#CC7832"
-      }
-    },
-    {
-      "name": "CPP class name",
-      "scope": "entity.name.type.cpp, meta.qualified_type.cpp, meta.function.definition.cpp, source.cpp",
-      "settings": {
-        "foreground": "#c3c3e4"
       }
     },
     {
@@ -794,7 +864,7 @@
       "name": "Classes",
       "scope": "entity.name.type.namespace",
       "settings": {
-        "foreground": "#e5c07b"
+        "foreground": "#a9b7c6"
       }
     },
     {
@@ -816,7 +886,7 @@
       "name": "Class name",
       "scope": "entity.name.class.identifier.namespace.type",
       "settings": {
-        "foreground": "#e5c07b"
+        "foreground": "#a9b7c6"
       }
     },
     {
@@ -827,7 +897,7 @@
         "variable.other.class.ts"
       ],
       "settings": {
-        "foreground": "#e5c07b"
+        "foreground": "#a9b7c6"
       }
     },
     {
@@ -841,7 +911,63 @@
       "name": "Type Name",
       "scope": "entity.name.type",
       "settings": {
-        "foreground": "#e5c07b"
+        "foreground": "#a9b7c6"
+      }
+    },
+    {
+      "name": "Python Classes",
+      "scope": "entity.name.type.class.python",
+      "settings": {
+        "foreground": "#a9b7c6"
+      }
+    },
+    {
+      "name": "Python Class Definitions",
+      "scope": "entity.name.class.python",
+      "settings": {
+        "foreground": "#a9b7c6"
+      }
+    },
+    {
+      "name": "Python Class Constructors",
+      "scope": "entity.name.function.constructor.python",
+      "settings": {
+        "foreground": "#a9b7c6"
+      }
+    },
+    {
+      "name": "Python Class Definition Names",
+      "scope": "meta.class.python entity.name.type.class.python",
+      "settings": {
+        "foreground": "#a9b7c6"
+      }
+    },
+    {
+      "name": "Python Class Definition",
+      "scope": "meta.class.python",
+      "settings": {
+        "foreground": "#a9b7c6"
+      }
+    },
+    {
+      "name": "Java Class Definition",
+      "scope": "meta.class.java entity.name.type.class.java",
+      "settings": {
+        "foreground": "#a9b7c6"
+      }
+    },
+    {
+      "name": "C++ Class Definition",
+      "scope": "meta.class.cpp entity.name.type.class.cpp",
+      "settings": {
+        "foreground": "#a9b7c6"
+      }
+    },
+    {
+      "name": "C# Class Definition",
+      "scope": "meta.class.cs entity.name.type.class.cs",
+      "settings": {
+        "foreground": "#a9b7c6"
       }
     },
     {
@@ -1677,15 +1803,6 @@
       }
     },
     {
-      "name": "entity.name.type.go",
-      "scope": [
-        "entity.name.type.go"
-      ],
-      "settings": {
-        "foreground": "#A9B7C6"
-      }
-    },
-    {
       "name": "Go package name and alias import",
       "scope": [
         "entity.name.package.go",
@@ -2212,15 +2329,6 @@
       ],
       "settings": {
         "foreground": "#BBB529",
-      }
-    },
-    {
-      "name": "entity.name.type.rust",
-      "scope": [
-        "entity.name.type.rust",
-      ],
-      "settings": {
-        "foreground": "#9876AA",
       }
     },
     {
