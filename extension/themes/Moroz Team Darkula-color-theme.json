@@ -389,7 +389,8 @@
       "name": "js Doc",
       "scope": "variable.other.jsdoc,entity.name.type.instance.jsdoc",
       "settings": {
-        "foreground": "#8A653E"
+        "foreground": "#8A653E",
+        "fontStyle": ""
       }
     },
     {
@@ -2638,38 +2639,66 @@
       }
     },
     {
+      "name": "Dart Constructor Calls",
+      "scope": "meta.function-call.constructor.dart, support.type.dart meta.function-call.dart, meta.function-call.dart, support.class.dart meta.function-call.dart",
+      "settings": {
+        "foreground": "#FFC66D"
+      }
+    },
+    {
+      "name": "Dart Named Constructor Calls",
+      "scope": "support.type.dart meta.function-call.constructor.named.dart, meta.function-call.constructor.named.dart",
+      "settings": {
+        "foreground": "#FFC66D"
+      }
+    },
+    {
+      "name": "Dart All Function Calls",
+      "scope": "source.dart meta.function-call.dart, meta.function-call.dart",
+      "settings": {
+        "foreground": "#FFC66D"
+      }
+    },
+    {
       "name": "Dart Class Constructors",
       "scope": "entity.name.function.constructor.dart, meta.class.constructor.dart",
       "settings": {
-        "foreground": "#A9B7C6"
+        "foreground": "#FFC66D"
       }
     },
     {
       "name": "Dart Private Constructors",
       "scope": "entity.name.function.constructor.private.dart",
       "settings": {
-        "foreground": "#A9B7C6"
+        "foreground": "#FFC66D"
+      }
+    },
+    {
+      "name": "Dart Class Declarations",
+      "scope": "entity.name.class.dart, entity.name.type.class.dart",
+      "settings": {
+        "foreground": "#8BA3D3"
       }
     },
     {
       "name": "Dart Class Instantiation",
       "scope": "meta.class.instantiation.dart, entity.name.type.class.instantiation.dart",
       "settings": {
-        "foreground": "#A9B7C6"
+        "foreground": "#FFC66D"
       }
     },
     {
       "name": "Dart Named Constructors",
       "scope": "entity.name.function.constructor.named.dart",
       "settings": {
-        "foreground": "#A9B7C6"
+        "foreground": "#FFC66D"
       }
     },
     {
       "name": "Dart Factory Constructors",
       "scope": "entity.name.function.constructor.factory.dart",
       "settings": {
-        "foreground": "#A9B7C6"
+        "foreground": "#FFC66D"
       }
     },
     {
@@ -2681,17 +2710,46 @@
     },
     {
       "name": "Dart Static Method Calls",
-      "scope": "meta.static-method-call.dart",
+      "scope": "meta.static-method-call.dart, entity.name.function.static.dart",
       "settings": {
         "foreground": "#FFC66D",
         "fontStyle": "italic"
       }
     },
     {
-      "name": "Dart Static Method Declaration",
+      "name": "Dart Static Method Declarations",
       "scope": "storage.modifier.static.dart, keyword.other.static.dart, entity.name.function.static.dart",
       "settings": {
+        "foreground": "#696dbe",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Dart New Keyword",
+      "scope": "keyword.other.new.dart, keyword.control.new.dart, keyword.other.new.dart support.class.dart, support.class.dart keyword.other.new.dart",
+      "settings": {
+        "foreground": "#FFC66D"
+      }
+    },
+    {
+      "name": "Dart Class in Function Call Context",
+      "scope": "support.class.dart meta.function-call.dart, meta.function-call.dart support.class.dart, keyword.other.new.dart support.class.dart, support.class.dart keyword.other.new.dart",
+      "settings": {
+        "foreground": "#FFC66D"
+      }
+    },
+    {
+      "name": "Dart Class Declarations",
+      "scope": "support.class.dart",
+      "settings": {
+        "foreground": "#8BA3D3"
+      }
+    },
+    {
+      "name": "Dart Constructor Call Override",
+      "scope": "meta.class.instantiation.dart, entity.name.type.class.instantiation.dart, support.class.dart meta.function-call.dart, meta.function-call.dart support.class.dart",
+      "settings": {
+        "foreground": "#FFC66D"
       }
     },
     {
