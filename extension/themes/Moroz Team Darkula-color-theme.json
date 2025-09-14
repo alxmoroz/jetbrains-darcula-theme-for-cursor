@@ -389,8 +389,7 @@
       "name": "js Doc",
       "scope": "variable.other.jsdoc,entity.name.type.instance.jsdoc",
       "settings": {
-        "foreground": "#8A653E",
-        "fontStyle": ""
+        "foreground": "#8A653E"
       }
     },
     {
@@ -2684,7 +2683,15 @@
       "name": "Dart Static Method Calls",
       "scope": "meta.static-method-call.dart",
       "settings": {
-        "foreground": "#FFC66D"
+        "foreground": "#FFC66D",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Dart Static Method Declaration",
+      "scope": "storage.modifier.static.dart, keyword.other.static.dart, entity.name.function.static.dart",
+      "settings": {
+        "fontStyle": "italic"
       }
     },
     {
